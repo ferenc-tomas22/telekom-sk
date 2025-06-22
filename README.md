@@ -23,7 +23,7 @@ Build a responsive, modern **e-commerce product catalog** using data from the [F
 You **must** use the following:
 
 - **Next.js** (Latest version)
-- **React 18 or 19**
+- **React v18/v19**
 - **TypeScript** (Strict mode)
 - **Tailwind CSS** for styling
 - **shadcn/ui** for reusable components (optional, but encouraged)
