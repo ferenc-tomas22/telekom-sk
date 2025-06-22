@@ -29,8 +29,9 @@ You **must** use the following:
 - **shadcn/ui** for reusable components (optional, but encouraged)
 - **pnpm** as the package manager
 - **FakeStore API** as backend data source
-- **Vitest** for unit testing
 - **Docker** for containerization
+- **Vitest** for unit testing
+- **Playwright** for some e2e tests, this is not required but nice to have
 
 ---
 
@@ -41,7 +42,7 @@ We are looking for **production-grade quality**, which means:
 - Set up a proper **project structure**
 - Configure **ESLint**, **Prettier**, and **tsconfig** for code quality
 - Use **OpenAPI client generation** to communicate with the API (you can use your preferred tool like `openapi-typescript`, `orval`, etc.)
-- Here is link to download your [openapi.json file](https://fakestoreapi.com/fakestoreapi.json)
+- Here is link to download your [openapi.json](https://fakestoreapi.com/fakestoreapi.json) file
 - Add **basic unit tests** using **Vitest**
 - Include a **Dockerfile** to build and run the application locally
 - Implement **Next.js caching mechanisms** where applicable
